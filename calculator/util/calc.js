@@ -77,7 +77,7 @@ const calculator = (type, value, state) => {
 
 export default calculator;
 
-// const Calculator = () => {
+// const calculator = () => {
 //   const [previousValue, setPreviousValue] = useState(null);
 //   const [nextValue, setNextValue] = useState('0');
 //   const [op, setOp] = useState(null);

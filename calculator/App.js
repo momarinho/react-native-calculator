@@ -15,7 +15,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <SafeAreaView>
-          <Text style={styles.value}>
+          <Text style={styles.display}>
             {parseFloat(this.state.currentValue).toLocaleString()}
           </Text>
 
@@ -96,14 +96,14 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#202020',
+    backgroundColor: '#18180E',
     justifyContent: 'flex-end',
   },
-  value: {
+  display: {
     color: '#fff',
-    fontSize: 42,
+    fontSize: 70,
     textAlign: 'right',
     marginRight: 20,
-    marginBottom: 10,
+    marginBottom: 50,
   },
 });

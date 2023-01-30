@@ -49,9 +49,9 @@ const styles = StyleSheet.create({
     paddingLeft: 40,
   },
   buttonSecondary: {
-    backgroundColor: '#a6a6a6',
+    backgroundColor: '#CEBCB8',
   },
   buttonAccent: {
-    backgroundColor: '#ffc107',
+    backgroundColor: '#2F426C',
   },
 });
